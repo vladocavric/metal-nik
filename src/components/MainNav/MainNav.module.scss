@@ -19,10 +19,23 @@
 
 	&__logoLink {
 		white-space: nowrap;
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		flex-wrap: nowrap;
+		@include mixins.mq('to', 360) {
+			h1 {
+				display: none;
+			}
+		}
 	}
 
 	&__Logo {
 		padding: 0 30px;
+		
+		img{
+			width: 80px;
+		}
 	}
 
 	> ul {

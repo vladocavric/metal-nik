@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../../assets/logo.png'
 
 
 
@@ -16,7 +17,7 @@ const MainNavigation = () => {
 		<nav className={`${styles.MainNav}`}>
 			<div className={styles.MainNav__Logo}>
 				<a href='/#about-us' className={styles.MainNav__logoLink}>
-					<h1>Metal-nik</h1>
+					<img src={logo} alt="logo" /><h1>Metal-nik</h1>
 				</a>
 			</div>
 			<ul className={`${isOpen ? styles.MainNav__IsOpen : ''}`}>
