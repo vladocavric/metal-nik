@@ -1,0 +1,15 @@
+:root {
+	--primary: rgb(53, 53, 223);
+	// --primary-op80: #287928cc;
+	// --primary-op50: #28792880;
+	// --primary-op20: #28792833;
+	// --primary-dark: #1f611f;
+	// --primary-opacity: #28792857;
+
+	--gray-first: #a1a1a1;
+	--gray-second: #f9fafb;
+}
+$primary: #287928;
+
+$primary-lighten: lighten($primary, 20%);
+$primary-op: #28792879;
