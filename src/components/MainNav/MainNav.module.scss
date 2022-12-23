@@ -77,12 +77,11 @@
 		}
 
 		a {
-			padding: 30px 35px;
+			padding: 28px 10px;
 			position: relative;
 			text-decoration: none;
-			@include mixins.mq('to', 1200) {
-				// font-size: 14px;
-				padding: 30px 20px;
+			@include mixins.mq('fromto', 992, 1200) {
+				font-size: 13px;
 			}
 			@include mixins.mq('to', 992) {
 				color: white;

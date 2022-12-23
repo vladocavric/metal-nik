@@ -28,13 +28,22 @@ const MainNavigation = () => {
 					<a href='/#istegnuti-metali'>Istegnuti metali</a>
 				</li>
 				<li style={{ '--time': '0.6s' }}>
+					<a href='/#usluge-varenja'>Usluge varenja</a>
+				</li>
+				<li style={{ '--time': '0.8s' }}>
+					<a href='/#prohromske-lese'>Prohromske lese</a>
+				</li>
+				<li style={{ '--time': '1s' }}>
 					<a href='/#filteri'>Filteri</a>
 				</li>
-				<li style={{ '--time': '0.8s' }}>
-					<a href='/#ostali-proizvodi'>Ostali Proizvodi</a>
-				</li>
-				<li style={{ '--time': '0.8s' }}>
+				<li style={{ '--time': '1.2s' }}>
 					<a href='/#contact'>Kontakt</a>
+				</li>
+				<li style={{ '--time': '1.4s' }}>
+					<button>theme</button>
+				</li>
+				<li style={{ '--time': '1.6s' }}>
+					<button>lang</button>
 				</li>
 			</ul>
 

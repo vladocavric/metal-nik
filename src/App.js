@@ -4,7 +4,8 @@ import Filteri from './components/Filteri/Fitleri.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import IstegnutiMetali from './components/IstegnutiMetali/IstegnutiMetali.jsx';
 import MainNav from './components/MainNav/MainNav.jsx';
-import OstaliProizvodi from './components/OstaliProizvodi/OstaliProizvodi.jsx';
+import ProhromskeLese from './components/ProhromskeLese/ProhromskeLese.jsx';
+import UslugeVarenja from './components/UslugeVarenja/UslugeVarenja.jsx';
 
 function App() {
 	return (
@@ -13,8 +14,9 @@ function App() {
 			<main>
 				<AboutUs />
 				<IstegnutiMetali />
+				<UslugeVarenja />
+				<ProhromskeLese />
 				<Filteri />
-				<OstaliProizvodi />
 				<Contact />
 			</main>
 			<Footer />
