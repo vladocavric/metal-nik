@@ -1,17 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import logo from '../../assets/logo.png'
 
-
+import Context from '../../store/context';
 
 import styles from './MainNav.module.scss';
 
 const MainNavigation = () => {
-	// const isTouch = 'ontouchstart' in window || navigator.msMaxTouchPoints > 0;
-	// console.log(isTouch);
+	const {changeThemeHandler, changeLangHandler, eng} = useContext(Context);
 	const [isOpen, setIsOpen] = useState(false);
 	const toggleMenuHandler = () => {
 		setIsOpen((prevState) => !prevState);
 	};
+
+	const onChangThemeHandler = () => {
+		changeThemeHandler()
+	}
+
+	const onChangeLangHandler = () => {
+		changeLangHandler()
+	}
 	
 	return (
 		<nav className={`${styles.MainNav}`}>
@@ -40,10 +47,8 @@ const MainNavigation = () => {
 					<a href='/#contact'>Kontakt</a>
 				</li>
 				<li style={{ '--time': '1.4s' }}>
-					<button>theme</button>
-				</li>
-				<li style={{ '--time': '1.6s' }}>
-					<button>lang</button>
+					<button onClick={onChangThemeHandler}>theme</button>
+					<button onClick={onChangeLangHandler}>{eng ? 'srb' : 'eng'}</button>
 				</li>
 			</ul>
 

@@ -16,7 +16,7 @@ const Filteri = () => {
 				industries.{' '}
 			</p>
 			<div className='container d-flex'>
-				{products.filters.map((filter, index) => <Card ime={filter.ime} name={filter.name} src={filter.fileName}/>)}
+				{products.filters.map((filter, index) => <Card key={index} ime={filter.ime} name={filter.name} src={filter.fileName}/>)}
 			</div>
 		</div>
 	);
