@@ -1,0 +1,21 @@
+[debug] [2022-12-23T22:07:46.057Z] ----------------------------------------------------------------------
+[debug] [2022-12-23T22:07:46.058Z] Command:       /home/vlado/.nvm/versions/node/v16.15.1/bin/node /home/vlado/.nvm/versions/node/v16.15.1/bin/firebase init
+[debug] [2022-12-23T22:07:46.058Z] CLI Version:   11.19.0
+[debug] [2022-12-23T22:07:46.058Z] Platform:      linux
+[debug] [2022-12-23T22:07:46.058Z] Node Version:  v16.15.1
+[debug] [2022-12-23T22:07:46.058Z] Time:          Fri Dec 23 2022 23:07:46 GMT+0100 (Central European Standard Time)
+[debug] [2022-12-23T22:07:46.058Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-23T22:07:46.062Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-23T22:07:46.062Z] > authorizing via signed-in user (vladocavric@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/vlado/www/metal-nik
+

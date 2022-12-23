@@ -64,12 +64,24 @@ const MainNavigation = () => {
 					<a href='/#contact'>{eng ? 'Contact' : 'Kontakt'}</a>
 				</li>
 				<li style={{ '--time': '1.4s' }} className={styles.Switches}>
-					<button className={`${dark ? styles.MainNav__Button__Dark : styles.MainNav__Button__Light}`} onClick={onChangThemeHandler}>{dark ? <img src={sun} alt="sun" /> : <img src={moon} alt="moon" />}</button>
+					<button
+						className={`${
+							dark
+								? styles.MainNav__Button__Dark
+								: styles.MainNav__Button__Light
+						}`}
+						onClick={onChangThemeHandler}>
+						{dark ? (
+							<img src={sun} alt='sun' />
+						) : (
+							<img src={moon} alt='moon' />
+						)}
+					</button>
 					<div onClick={onChangeLangHandler}>
 						{eng ? (
-							<img src={srbFlag} alt="serbian flag" />
+							<img src={srbFlag} alt='serbian flag' />
 						) : (
-							<img src={ukFlag} alt="uk flag" />
+							<img src={ukFlag} alt='uk flag' />
 						)}
 					</div>
 				</li>
