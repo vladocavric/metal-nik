@@ -8,9 +8,10 @@ import IstegnutiMetali from './components/IstegnutiMetali/IstegnutiMetali.jsx';
 import MainNav from './components/MainNav/MainNav.jsx';
 import ProhromskeLese from './components/ProhromskeLese/ProhromskeLese.jsx';
 import UslugeVarenja from './components/UslugeVarenja/UslugeVarenja.jsx';
+import Modal from './components/Modal/Modal.jsx';
 
 function App() {
-	const {dark} = useContext(Context);
+	const {dark, selectedProd, removeSelectedProductHandler} = useContext(Context);
 	const darkTheme = {
 		'--bg': '#292929',
 		'--color': 'white',
@@ -29,6 +30,8 @@ function App() {
 				<Contact />
 			</main>
 			<Footer />
+			
+			{selectedProd.name && <Modal {...selectedProd} onClose={removeSelectedProductHandler} />}
 		</div>
 	);
 }

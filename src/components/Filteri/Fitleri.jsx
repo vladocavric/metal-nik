@@ -6,8 +6,8 @@ import Card from '../Card/Card';
 const Filteri = () => {
 	const { eng } = useContext(Context);
 	return (
-		<div className='d-flex d-flex-col center container mb-30' id='filteri'>
-			<h2 className='title mb-30'>{eng ? 'Filters' : 'Filteri'}</h2>
+		<div className='d-flex d-flex-col center container mb-50' id='filteri'>
+			<h2 className='title mb-10'>{eng ? 'Filters' : 'Filteri'}</h2>
 			{eng ? (
 				<p>
 					For over 30 years we are specialize in design end
@@ -22,7 +22,7 @@ const Filteri = () => {
 				</p>
 			)}
 
-			<div className='container d-flex'>
+			<div className='grid'>
 				{products.filters.map((filter, index) => (
 					<Card
 						key={index}

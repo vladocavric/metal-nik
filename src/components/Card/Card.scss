@@ -1,0 +1,10 @@
+.card {
+	box-shadow: -10px -10px 20px #8c8c8c, 10px 10px 20px #ffffff;
+	&-dark {
+		box-shadow: -10px -10px 20px #171717, 10px 10px 20px #3b3b3b;
+	}
+	img {
+		aspect-ratio: 2 / 3;
+		object-fit: cover;
+	}
+}

@@ -18,10 +18,8 @@ const retrieveLocalStorageData = () => {
 
 export const ContextProvider = (props) => {
     const {localLang, localTheme} = retrieveLocalStorageData()
-    console.log(localLang, localTheme)
     const [dark, setDark] = useState(!!localTheme);
     const [eng, setEng] = useState(!!localLang);
-    console.log(eng, dark)
     const [selectedProd, setSelectedProd] = useState({});
     const changeThemeHandler = () => {
         setDark((prevState) => !prevState)
@@ -44,6 +42,10 @@ export const ContextProvider = (props) => {
     const selectingProdHandler = (product) => {
         setSelectedProd(product)
     }
+
+    const removeSelectedProductHandler = () => {
+        setSelectedProd({})
+    }
     return (
 		<Context.Provider
 			value={{
@@ -52,7 +54,8 @@ export const ContextProvider = (props) => {
 				selectedProd,
 				changeThemeHandler,
                 changeLangHandler,
-                selectingProdHandler
+                selectingProdHandler,
+                removeSelectedProductHandler
 			}}>
 			{props.children}
 		</Context.Provider>

@@ -9,9 +9,9 @@ const IstegnutiMetali = () => {
 	const {eng} = useContext(Context);
 	return (
 		<div
-			className='d-flex d-flex-col center container mb-30'
+			className='d-flex d-flex-col center container mb-50'
 			id='istegnuti-metali'>
-			<h2 className='title mb-30'>{eng ? 'Stretched Metals' : 'Istegnuti Metali'}</h2>
+			<h2 className='title mb-10'>{eng ? 'Stretched Metals' : 'Istegnuti Metali'}</h2>
 			{eng ? (
 				<p>
 					Expanded metal in recent years are used in all fields. There
@@ -31,7 +31,7 @@ const IstegnutiMetali = () => {
 				</p>
 			)}
 
-			<div className='container d-flex'>
+			<div className='grid'>
 				{products.istegnutiMetal.map((filter, index) => (
 					<Card
 						key={index}

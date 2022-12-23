@@ -7,7 +7,8 @@
 	justify-content: space-between;
 	align-items: center;
 	position: -webkit-sticky; /* Safari */
-	position: sticky;
+	position: fixed;
+	width: 100%;
 	top: 0;
 	height: 8vh;
 	z-index: 5;
@@ -29,10 +30,16 @@
 				display: none;
 			}
 		}
+		@include mixins.mq('fromto', 992, 1200) {
+			h1 {
+				display: none;
+			}
+		}
 	}
 
 	&__Logo {
 		padding: 0 30px;
+		text-transform: uppercase;
 
 		img {
 			width: 80px;
@@ -45,6 +52,7 @@
 		justify-content: flex-end;
 		list-style-type: none;
 		padding-right: 30px;
+		padding-left: 20px;
 
 		@include mixins.mq('from', 992) {
 			gap: 15px;
@@ -86,7 +94,7 @@
 			position: relative;
 			text-decoration: none;
 			@include mixins.mq('fromto', 992, 1200) {
-				font-size: 13px;
+				font-size: 14px;
 			}
 			@include mixins.mq('to', 992) {
 				color: white;
@@ -132,7 +140,7 @@
 			width: 100%;
 			text-align: center;
 
-			@include mixins.mq(from, '992') {
+			@include mixins.mq('from', '992') {
 				position: absolute;
 				box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 				visibility: hidden;
@@ -141,7 +149,7 @@
 				width: 100%;
 				top: 56px;
 			}
-			@include mixins.mq(to, '992') {
+			@include mixins.mq('to', '992') {
 				transform: translateX(0%);
 			}
 		}
@@ -241,6 +249,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		cursor: pointer;
 	}
 }
 

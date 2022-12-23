@@ -1,10 +1,10 @@
 import React, { useState, useContext } from 'react';
-import logo from '../../assets/logo.png';
 
 import Context from '../../store/context';
 
 import styles from './MainNav.module.scss';
 
+import logo from '../../assets/logo.png';
 import srbFlag from '../../assets/srb-flag.svg';
 import ukFlag from '../../assets/uk-flag.svg';
 import moon from '../../assets/moon.svg';
@@ -31,7 +31,7 @@ const MainNavigation = () => {
 	};
 
 	return (
-		<nav className={`${styles.MainNav}`} style={dark ? darkTheme : {}}>
+		<nav className={styles.MainNav} style={dark ? darkTheme : {}}>
 			<div className={styles.MainNav__Logo}>
 				<a href='/#about-us' className={styles.MainNav__logoLink}>
 					<img src={logo} alt='logo' />
@@ -40,7 +40,7 @@ const MainNavigation = () => {
 			</div>
 			<ul className={`${isOpen ? styles.MainNav__IsOpen : ''}`}>
 				<li style={{ '--time': '0.2s' }}>
-					<a href='/#'>{eng ? 'About Us' : 'O nama'}</a>
+					<a href='/#'>{eng ? 'About Us' : 'O Nama'}</a>
 				</li>
 				<li style={{ '--time': '0.4s' }}>
 					<a href='/#istegnuti-metali'>
