@@ -1,13 +1,15 @@
 :root {
 	--primary: #00528d;
-	// --primary-op80: #287928cc;
+	--primary-op80: #00528dcc;
 	// --primary-op50: #28792880;
-	--primary-op20: rgba(var(--primary), 20);
+	--primary-op20: #00528d33;
 	// --primary-dark: #1f611f;
 	// --primary-opacity: #28792857;
 
 	--gray-first: #a1a1a1;
 	--gray-second: #f9fafb;
+	// --bg: black;
+	// --color: white;
 }
 $primary: #287928;
 

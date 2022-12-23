@@ -11,7 +11,7 @@ const IstegnutiMetali = () => {
 		<div
 			className='d-flex d-flex-col center container mb-30'
 			id='istegnuti-metali'>
-			<h2 className='title mb-30'>Istegnuti Metali</h2>
+			<h2 className='title mb-30'>{eng ? 'Stretched Metals' : 'Istegnuti Metali'}</h2>
 			{eng ? (
 				<p>
 					Expanded metal in recent years are used in all fields. There

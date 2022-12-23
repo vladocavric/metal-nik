@@ -5,18 +5,18 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: rgba(var(--primary), 0.8);
+    background: var(--primary-op20);
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: var(--primary);
     border-radius: 4px;
-    border: 1px solid #ffffff88;
+    // border: 1px solid #ffffff88;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--primary-op20);
+    background: var(--primary-op80);
   }
   
