@@ -18,6 +18,10 @@ const MainNavigation = () => {
 		setIsOpen((prevState) => !prevState);
 	};
 
+	const closeMenuHandler = () => {
+		setIsOpen(false)
+	}
+
 	const onChangThemeHandler = () => {
 		changeThemeHandler();
 	};
@@ -26,6 +30,8 @@ const MainNavigation = () => {
 		changeLangHandler();
 	};
 
+	
+
 	const darkTheme = {
 		'--bg': '#292929',
 	};
@@ -33,12 +39,12 @@ const MainNavigation = () => {
 	return (
 		<nav className={styles.MainNav} style={dark ? darkTheme : {}}>
 			<div className={styles.MainNav__Logo}>
-				<a href='/#about-us' className={styles.MainNav__logoLink}>
+				<a href='/#about-us' className={styles.MainNav__logoLink} onClick={closeMenuHandler} >
 					<img src={logo} alt='logo' />
 					<h1>Metal-nik</h1>
 				</a>
 			</div>
-			<ul className={`${isOpen ? styles.MainNav__IsOpen : ''}`}>
+			<ul className={`${isOpen ? styles.MainNav__IsOpen : ''}`} onClick={closeMenuHandler}>
 				<li style={{ '--time': '0.2s' }}>
 					<a href='/#'>{eng ? 'About Us' : 'O Nama'}</a>
 				</li>
@@ -86,6 +92,8 @@ const MainNavigation = () => {
 					</div>
 				</li>
 			</ul>
+			
+			{isOpen && <div className={styles.MainNav__Backdrop} onClick={closeMenuHandler}></div>}
 
 			<button
 				onClick={toggleMenuHandler}

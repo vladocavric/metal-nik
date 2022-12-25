@@ -53,6 +53,7 @@
 		list-style-type: none;
 		padding-right: 30px;
 		padding-left: 20px;
+		z-index: 3;
 
 		@include mixins.mq('from', 992) {
 			gap: 15px;
@@ -281,4 +282,14 @@
 			background: linear-gradient(315deg, #004a7f, #005897);
 		}
 	}
+}
+
+.MainNav__Backdrop {
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 8vh;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
 }
