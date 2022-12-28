@@ -23,10 +23,10 @@ function App() {
 			<MainNav />
 			<main>
 				<AboutUs />
-				<IstegnutiMetali />
-				<UslugeVarenja />
-				<ProhromskeLese />
 				<Filteri />
+				<IstegnutiMetali />
+				<ProhromskeLese />
+				<UslugeVarenja />
 				<Contact />
 			</main>
 			<Footer />
