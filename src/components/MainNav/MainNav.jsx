@@ -49,13 +49,11 @@ const MainNavigation = () => {
 					<a href='/#'>{eng ? 'About Us' : 'O Nama'}</a>
 				</li>
 				<li style={{ '--time': '0.4s' }}>
-					<a href='/#istegnuti-metali'>
-						{eng ? 'Stretched Metals' : 'Istegnuti Metali'}
-					</a>
+					<a href='/#filteri'>{eng ? 'Filters' : 'Filteri'}</a>
 				</li>
 				<li style={{ '--time': '0.6s' }}>
-					<a href='/#usluge-varenja'>
-						{eng ? 'Welding Services' : 'Usluge Varenja'}
+					<a href='/#istegnuti-metali'>
+						{eng ? 'Stretched Metals' : 'Istegnuti Metali'}
 					</a>
 				</li>
 				<li style={{ '--time': '0.8s' }}>
@@ -64,7 +62,9 @@ const MainNavigation = () => {
 					</a>
 				</li>
 				<li style={{ '--time': '1s' }}>
-					<a href='/#filteri'>{eng ? 'Filters' : 'Filteri'}</a>
+					<a href='/#usluge-varenja'>
+						{eng ? 'Welding Services' : 'Usluge Varenja'}
+					</a>
 				</li>
 				<li style={{ '--time': '1.2s' }}>
 					<a href='/#contact'>{eng ? 'Contact' : 'Kontakt'}</a>
