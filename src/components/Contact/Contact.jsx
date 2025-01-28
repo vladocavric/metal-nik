@@ -19,7 +19,7 @@ const Contact = () => {
 			</div>
 			<div className='center-vertical d-flex-col p-100 p-15-768'>
 				<h1 className='title mb-30'>{eng ? 'Contact' : 'Kontakt'}</h1>
-				<p>Metal Nik, Srbija, Sremska Kamenica, Jurija Gagarina 25</p>
+				<p>Metal-Nik, Srbija, Sremska Kamenica, Jurija Gagarina 25</p>
 				<p>
 					{eng ? 'Sales' : 'Prodaja'}:&nbsp;Veselin Nikolić,
 					tel:&nbsp;
