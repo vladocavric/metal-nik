@@ -1,9 +1,9 @@
 import im1 from './istegnuti_metal_1.jpg'
 import im2 from './istegnuti_metal_2.jpg'
 // import im3 from './istegnuti_metal_3.jpg'
-import im4 from './istegnuti_metal_4.jpg'
+// import im4 from './istegnuti_metal_4.jpg'
 import uv1 from './usluga_varenja_1.jpg'
-// import uv2 from './usluga_varenja_2.jpg'
+import uv2 from './usluga_varenja_2.jpg'
 // import uv3 from './usluga_varenja_3.jpg'
 import uv4 from './merno_regulaciona_stanica_za_prirodni_gas.jpg'
 import phl1 from './prohromske_lese_za_susenje_voca_povrca_lekovitog_bilja_i_drugo_1.jpg'
@@ -37,11 +37,11 @@ export const products = {
 		// 	name: 'Trash can',
 		// 	fileName: im3,
 		// },
-		{
-			ime: 'Zaštitna pregrada',
-			name: 'Protective barrier',
-			fileName: im4,
-		},
+		// {
+		// 	ime: 'Zaštitna pregrada',
+		// 	name: 'Protective barrier',
+		// 	fileName: im4,
+		// },
 		{
 			ime: 'Istegnuti metal za proizvodnju podnjača zbegova u košnicama',
 			name: 'Stretched metal for the production of bed frames in hives',
@@ -59,11 +59,11 @@ export const products = {
 			name: 'Construction of a prochromic gas pipeline at a plant for the production of biogas',
 			fileName: uv1,
 		},
-		// {
-		// 	ime: 'Dekorativna zaštitna rešetka',
-		// 	name: 'Decorative protective grille',
-		// 	fileName: uv2,
-		// },
+		{
+			ime: 'Dekorativna zaštitna rešetka',
+			name: 'Decorative protective grille',
+			fileName: uv2,
+		},
 		// {
 		// 	ime: 'Reklamne konstrukcije',
 		// 	name: 'Advertising structures',

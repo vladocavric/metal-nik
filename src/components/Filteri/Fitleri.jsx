@@ -8,17 +8,11 @@ const Filteri = () => {
 	return (
 		<div className='d-flex d-flex-col center container mb-50' id='filteri'>
 			<h2 className='title mb-10'>{eng ? 'Filters' : 'Filteri'}</h2>
-			{eng ? (
-				<p>
-					With decades of experience in filter production, we design and create ideal solutions for 
-					filtration in the food, chemical, pharmaceutical, and metal industries.{' '}
-				</p>
-			) : (
-				<p>
-					Višedecenijskom proizvodnjom filtera projektujemo i izrađujemo idealna rešenja za
-					filtraciju u prehrambenoj, hemijskoj, farmaceutskoj i metalnoj industriji.
-				</p>
-			)}
+			<p className="mb-30">
+				{eng
+					? 'With decades of experience in filter production, we design and create ideal solutions for filtration in the food, chemical, pharmaceutical, and metal industries.'
+					: 'Višedecenijskom proizvodnjom filtera projektujemo i izrađujemo idealna rešenja za filtraciju u prehrambenoj, hemijskoj, farmaceutskoj i metalnoj industriji.'}
+			</p>
 
 			<div className='grid'>
 				{products.filters.map((filter, index) => (
