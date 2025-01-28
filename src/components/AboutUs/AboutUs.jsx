@@ -12,44 +12,32 @@ const AboutUs = () => {
 				<h1 className='title'>{eng ? 'About Us' : 'O Nama'}</h1>
 				{eng ? (
 					<p>
-						Szr “METAL-NIK “ was founded in 1992 in Novi Sad end has
-						been engaged in the same activity since its foundation.
-						First of all, the production of filters for different
-						purposes. Years of experience in perfecting production
-						end harmonizing it with the needs of the market have led
-						to the expansion of product types. So, today in the
-						production process the most represented are : Cartridge
-						filter for the natural gas in different dimensions and
-						shapes .” Air filters - for motor vehicles, primarily
-						freight traffic ,tractors end other working machines. ‘
-						Oil filters of working machine in industrial systems.
-						Our products are also used in other activities of the
-						food industry,e.g. beekeeping, then installing filters
-						on the chimneys of production facilities to purify
-						exhaust substances/gasas. The company is still trying to
-						expand the range of its products and adapt them to the
-						needs of consumers.{' '}
+						SZR "METAL-NIK" was established in 1992 in Novi Sad and has been engaged in the same 
+						activity since its inception. Primarily, the company specializes in the production of 
+						filters for various purposes. Years of experience and continuous improvement in production, 
+						as well as alignment with market needs, have led to the expansion of the types and varieties 
+						of products. Today, the most prominent products in the manufacturing process include: 
+						natural gas filters (inserts), felt filters, wire filters (in various dimensions and shapes), 
+						air filters for motor vehicles (primarily for commercial vehicles such as combines, tractors, 
+						trucks, and other heavy machinery), oil filters (mainly for filtering hydraulic oil in 
+						industrial systems of machinery). Our products are also used in other industries, 
+						such as the food industry, beekeeping, and in the installation of filters on chimneys 
+						of production facilities to purify exhaust materials/gases. The company continues to 
+						strive to expand its range of products and adapt them to consumer needs.{' '}
 					</p>
 				) : (
 					<p>
-						SZR "METAL-NIK" osnovana je 1992. godine u Novom Sadu i
-						od osnivanja bavi se istom delatnošću. Pre svega
-						proizvodnjom filtera različitih namena. Godine iskustva
-						usavršvanja proizvodnje i usklađivanja sa potrebama
-						tržišta, dovele su do širenja tipova proizvoda i vrsta
-						samog proizvoda. Tako da su danas u proizvodnom procesu
-						najzastupljeniji: Filteri za prirodni gas (ulošci):
-						filcani, žičani u različitim dimenzijama i oblicima.;
-						Filteri vazduha-za motorna vozila, prvenstveno teretnog
-						saobraćaja, kombajni, traktori, kamioni i druge radne
-						mašine.; Filteri ulja - pre svega, za filtriranje
-						hidrauličnog ulja radnih mašina u industrijskim
-						sistemima. Naši proizvodi nalaze primenu i u drugim
-						delatnostima prehrambene industrije npr. pčelarstva,
-						zatim postavljanje filtera na odžake proizvodnih pogona
-						radi pročišćavanja izduvnih materija/gasova. Firma i
-						dalje nastoji da proširuje lapezu svojih proizvoda i
-						prilagođava ih potebama potrošača.
+						SZR &quot;METAL-NIK&quot; osnovana je 1992. godine u Novom Sadu i od osnivanja bavi se istom
+						delatnošću. pre svega, proizvodnjom filtera različitih namena. Godine iskustva i
+						usavršavanja proizvodnje i usklađivanje sa potrebama tržišta, dovele su do širenja tipova i
+						vrsta samih proizvoda. Tako da su danas u proizvodnom procesu najzastupljeniji: filteri za
+						prirodni gas (ulošci), filcani, žičani (u različitim dimenzijama i oblicima), filteri vazduha – za
+						motorna vozila (prvenstveno teretnog saobraćaja: kombajni, traktori, kamioni i druge radne
+						mašine), filteri ulja (pre svega za filtriranje hidrauličnog ulja radnih mašina u industrijskim
+						sistemima). Naši proizvodi nalaze primenu i u drugim delatnostima prehrambene
+						industrije, npr. pčelarstvu, a takođe i u postavljanju filtera na odžake proizvodnih pogona
+						radi pročišćavanja izduvnih materija/gasova. Firma i dalje nastoji da proširuje lepezu svojih
+						proizvoda i prilagođava ih potrebama potrošača.
 					</p>
 				)}
 			</div>

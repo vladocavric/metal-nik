@@ -21,10 +21,20 @@
     gap: 20px;
     grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
 
+    &.small{
+        max-width: 770px;
+        // grid-template-columns: auto
+        @include mixins.mq('to', 760) {
+            grid-template-columns: auto;
+        }
+    }
+
     @include mixins.mq('to', 360) {
         grid-template-columns: auto;
     }
 }
+
+
 
 main {
     margin-top: 8vh;

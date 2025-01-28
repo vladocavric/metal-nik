@@ -10,7 +10,7 @@ const UslugeVarenja = () => {
   return (
     <div className='d-flex d-flex-col center container mb-50' id='usluge-varenja'>
 			<h2 className='title mb-30'>{eng ? 'Welding Services' : 'Usluge Varenja'}</h2>
-      <div className='grid'>
+      <div className='grid small'>
 				{products.uslugeVarenja.map((filter, index) => <Card key={index} ime={filter.ime} name={filter.name} src={filter.fileName}/>)}
 			</div>
 		</div>

@@ -11,23 +11,21 @@ const IstegnutiMetali = () => {
 		<div
 			className='d-flex d-flex-col center container mb-50'
 			id='istegnuti-metali'>
-			<h2 className='title mb-10'>{eng ? 'Stretched Metals' : 'Istegnuti Metali'}</h2>
+			<h2 className='title mb-10'>{eng ? 'Elongate metal' : 'Istegnuti Metali'}</h2>
 			{eng ? (
 				<p>
-					Expanded metal in recent years are used in all fields. There
-					are many adventages in using expanded metal such as cost
-					efficiency, greater strength, lightness, ideal for secondary
-					operations. Among these, expanded metal can be produced in
-					carbon steel, galvanized steel, naluminium, coper end other
-					metal alloys.
+					Elongate metal is obtained by slitting and stretching sheet metal without waste. 
+					Due to its good mechanical properties, and especially its cost-effectiveness, 
+					it is gaining increasing application.
+					The materials used include black sheet metal, galvanized sheet metal, aluminum sheet metal, 
+					stainless steel sheet metal, and copper sheet metal.
 				</p>
 			) : (
 				<p>
-					Istegnuti metal se dobija prosećanjem I razvlačenjem lima
-					bez otpada. Zbog dobrih mehaničkih osobina a posebno iz
-					ekonomskih razloga dobija na sve većoj primeni. Materijali
-					koji se koriste su crni lim, pocinkovani lim, aluminijumski
-					lim, prohromski lim I bakarni lim.{' '}
+					Istegnuti metal se dobija prosecanjem i razvlačenjem lima bez otpada. Zbog dobrih
+					mehaničkih osobina, a posebno zbog ekonomičnosti, dobija na sve većoj primeni.
+					Materijali koji se koriste su crni lim, pocinkovani lim, aluminijumski lim, prohromski lim i
+					bakarni lim.{' '}
 				</p>
 			)}
 

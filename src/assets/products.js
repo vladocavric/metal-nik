@@ -1,10 +1,10 @@
 import im1 from './istegnuti_metal_1.jpg'
 import im2 from './istegnuti_metal_2.jpg'
-import im3 from './istegnuti_metal_3.jpg'
+// import im3 from './istegnuti_metal_3.jpg'
 import im4 from './istegnuti_metal_4.jpg'
 import uv1 from './usluga_varenja_1.jpg'
-import uv2 from './usluga_varenja_2.jpg'
-import uv3 from './usluga_varenja_3.jpg'
+// import uv2 from './usluga_varenja_2.jpg'
+// import uv3 from './usluga_varenja_3.jpg'
 import uv4 from './merno_regulaciona_stanica_za_prirodni_gas.jpg'
 import phl1 from './prohromske_lese_za_susenje_voca_povrca_lekovitog_bilja_i_drugo_1.jpg'
 import phl2 from './prohromske_lese_za_susenje_voca_povrca_lekovitog_bilja_i_drugo_2.jpg'
@@ -17,18 +17,26 @@ import filter4 from './vazdusni_filteri.jpg'
 import phf1 from './prohromski_filteri_1.jpg'
 import phf2 from './prohromski_filteri_2.jpg'
 import phf3 from './prohromski_filteri_3.jpg'
+import sis from './sto_i_stolice.jpg'
+import filter5 from './filter_sa_aktivnim_ugljem.jpg'
+
 export const products = {
 	istegnutiMetal: [
+		{
+			ime: 'Baštenska garnitura',
+			name: 'Garden set',
+			fileName: sis,
+		},
 		{
 			ime: 'Valjci za filtere',
 			name: 'Filter rollers',
 			fileName: im2,
 		},
-		{
-			ime: 'Kanta za smeće',
-			name: 'Trash can',
-			fileName: im3,
-		},
+		// {
+		// 	ime: 'Kanta za smeće',
+		// 	name: 'Trash can',
+		// 	fileName: im3,
+		// },
 		{
 			ime: 'Zaštitna pregrada',
 			name: 'Protective barrier',
@@ -47,24 +55,24 @@ export const products = {
 			fileName: uv4,
 		},
 		{
-			ime: 'Izrada prohromskog gasovoda na postrojenju za proizvodnju bio gasa',
+			ime: 'Izrada prohromskog gasovoda na postrojenju za proizvodnju biogasa',
 			name: 'Construction of a prochromic gas pipeline at a plant for the production of biogas',
 			fileName: uv1,
 		},
-		{
-			ime: 'Dekorativna zaštitna resetka',
-			name: 'Decorative protective grille',
-			fileName: uv2,
-		},
-		{
-			ime: 'Reklamne konstrukcije',
-			name: 'Advertising structures',
-			fileName: uv3,
-		},
+		// {
+		// 	ime: 'Dekorativna zaštitna rešetka',
+		// 	name: 'Decorative protective grille',
+		// 	fileName: uv2,
+		// },
+		// {
+		// 	ime: 'Reklamne konstrukcije',
+		// 	name: 'Advertising structures',
+		// 	fileName: uv3,
+		// },
 	],
 	prohromskeLese: [
 		{
-			ime: 'Prohromske lese za susenje voca povrca lekovitog bilja i drugo',
+			ime: 'Prohromske lese za sušenje voća, povrća, lekovitog bilja i drugo',
 			name: 'Prochromic trays for drying fruits, vegetables, medicinal herbs and more',
 			fileName: phl1,
 		},
@@ -86,12 +94,17 @@ export const products = {
 	],
 	filters: [
 		{
-			ime: 'Ulosci filtera za prirodni gas',
+			ime: 'Filteri sa aktivnim ugljem',
+			name: 'Activated carbon cartridge filters',
+			fileName: filter5,
+		},
+		{
+			ime: 'Ulošci filtera za prirodni gas',
 			name: 'Natural gas filter cartridges',
 			fileName: filter1,
 		},
 		{
-			ime: 'Ulosci za fini filtera za bio gas',
+			ime: 'Ulošci za fini filter za biogas',
 			name: 'Cartridges for fine filters for biogas',
 			fileName: filter2,
 		},
@@ -101,7 +114,7 @@ export const products = {
 			fileName: filter3,
 		},
 		{
-			ime: 'Vazdusni filteri',
+			ime: 'Vazdušni filteri',
 			name: 'Air filters',
 			fileName: filter4,
 		},

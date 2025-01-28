@@ -10,15 +10,13 @@ const Filteri = () => {
 			<h2 className='title mb-10'>{eng ? 'Filters' : 'Filteri'}</h2>
 			{eng ? (
 				<p>
-					For over 30 years we are specialize in design end
-					manufacture of high quality replacement filter element for a
-					wide variety of industries.{' '}
+					With decades of experience in filter production, we design and create ideal solutions for 
+					filtration in the food, chemical, pharmaceutical, and metal industries.{' '}
 				</p>
 			) : (
 				<p>
-					Višedeceniskom proizvodnjom filtera projektujemo I
-					izradjujemo idealna rešenja za filtraciju u prehrambenoj,
-					hemiskoj, farmaceutskoj ili metalnoj industriji.
+					Višedecenijskom proizvodnjom filtera projektujemo i izrađujemo idealna rešenja za
+					filtraciju u prehrambenoj, hemijskoj, farmaceutskoj i metalnoj industriji.
 				</p>
 			)}
 
