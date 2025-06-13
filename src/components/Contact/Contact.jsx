@@ -10,12 +10,12 @@ const Contact = () => {
 				<iframe
 				title='googlemap'
 					src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.6878469454555!2d19.845927600000003!3d45.2031474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b106ea1c2ec8f%3A0xf0ae2b42b0f6717f!2sMetal-Nik!5e1!3m2!1sen!2srs!4v1749785247631!5m2!1sen!2srs'
-						width='100%'
+					width='100%'
 					height='100%'
 					style={{ border: 0 }}
-					allowfullscreen=''
+					allowFullScreen=''
 					loading='lazy'
-					referrerpolicy='no-referrer-when-downgrade'></iframe>
+					referrerPolicy='no-referrer-when-downgrade'></iframe>
 			</div>
 			<div className='center-vertical d-flex-col p-100 p-15-768'>
 				<h1 className='title mb-30'>{eng ? 'Contact' : 'Kontakt'}</h1>
