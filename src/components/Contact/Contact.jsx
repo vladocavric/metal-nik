@@ -8,14 +8,14 @@ const Contact = () => {
 		<div className='d-flex eq-width d-flex-col-revers-768' id='contact'>
 			<div>
 				<iframe
-					title='googlemap'
-					src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.947530174993!2d19.796817615550292!3d45.24885377909894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b1197f58e55b7%3A0x7d2a5ad246f5525d!2sBate%20Brki%C4%87a%208%2C%20Novi%20Sad%2021000!5e0!3m2!1sen!2srs!4v1671675067352!5m2!1sen!2srs'
-					width='100%'
+				title='googlemap'
+					src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.6878469454555!2d19.845927600000003!3d45.2031474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b106ea1c2ec8f%3A0xf0ae2b42b0f6717f!2sMetal-Nik!5e1!3m2!1sen!2srs!4v1749785247631!5m2!1sen!2srs'
+						width='100%'
 					height='100%'
 					style={{ border: 0 }}
-					allowFullScreen=''
+					allowfullscreen=''
 					loading='lazy'
-					referrerPolicy='no-referrer-when-downgrade'></iframe>
+					referrerpolicy='no-referrer-when-downgrade'></iframe>
 			</div>
 			<div className='center-vertical d-flex-col p-100 p-15-768'>
 				<h1 className='title mb-30'>{eng ? 'Contact' : 'Kontakt'}</h1>
